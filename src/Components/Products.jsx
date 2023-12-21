@@ -8,11 +8,11 @@ const Products = () => {
       <nav>
         <input type="search" placeholder="Search Products" />
         <div>
-          <NavLink style={NavLinkStyle} to="new">
-            New
-          </NavLink>
           <NavLink style={NavLinkStyle} to="featured">
             Featured
+          </NavLink>
+          <NavLink style={NavLinkStyle} to="new">
+            New
           </NavLink>
         </div>
       </nav>
